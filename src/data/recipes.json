@@ -1,0 +1,820 @@
+[
+  {
+    "id": "egg-white-omelet-yogurt",
+    "meal": "Breakfast",
+    "title": "Egg White Omelet + Greek Yogurt",
+    "ingredients": [
+      "3 egg whites & 1 whole egg",
+      "1 cup chopped fresh spinach",
+      "1 medium diced tomato",
+      "½ cup fat-free Greek yogurt",
+      "Salt, pepper, and garlic powder to taste",
+      "Nonstick cooking spray"
+    ],
+    "steps": [
+      "Whisk the egg whites and whole egg in a bowl. Season with salt, pepper, and garlic powder.",
+      "Spray a nonstick skillet with cooking spray and heat over medium.",
+      "Add spinach and tomato; sauté for 2 minutes until softened.",
+      "Pour in the eggs. Cook for 3–4 minutes until set, folding in half.",
+      "Serve with ½ cup fat-free Greek yogurt on the side."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "calories": 260,
+    "protein": 30,
+    "image": "/img/breakfastOne.jpg"
+  },
+  {
+    "id": "yogurt-berries",
+    "meal": "Breakfast",
+    "title": "Fat-Free Greek Yogurt with Berries",
+    "ingredients": [
+      "1 cup fat-free Greek yogurt",
+      "½ cup mixed berries",
+      "1 tbsp honey"
+    ],
+    "steps": [
+      "Combine the Greek yogurt and berries in a bowl.",
+      "Drizzle with honey and mix well."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 150,
+    "protein": 20,
+    "image": "/img/breakfastTwo.jpg"
+  },
+  {
+    "id": "egg-white-scramble-turkey",
+    "meal": "Breakfast",
+    "title": "Egg White Scramble + Turkey Slices",
+    "ingredients": [
+      "4 egg whites",
+      "1 cup chopped vegetables (bell peppers, onions, spinach)",
+      "3 oz sliced turkey breast",
+      "Salt and pepper to taste",
+      "Nonstick cooking spray"
+    ],
+    "steps": [
+      "Spray a nonstick skillet with cooking spray and heat over medium.",
+      "Add chopped vegetables and sauté for 3–4 minutes until tender.",
+      "Pour in egg whites, season with salt and pepper, and cook while stirring until fully set.",
+      "Serve with sliced turkey breast on the side."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "calories": 220,
+    "protein": 35,
+    "image": "/img/breakfastThree.jpg"
+  },
+  {
+    "id": "pbfit-yogurt-protein",
+    "meal": "Breakfast",
+    "title": "PBfit Yogurt with Protein Powder",
+    "ingredients": [
+      "1 cup fat-free Greek yogurt",
+      "1 scoop protein powder (vanilla or unflavored)",
+      "1 scoop PBfit powder",
+      "1 Tbsp cocoa powder (optional)",
+      "1 tbsp cacao nibs (optional)"
+    ],
+    "steps": [
+      "Combine the Greek yogurt, protein powder, PBfit, and cocoa powder in a bowl.",
+      "Add cacao nibs and mix well."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 200,
+    "protein": 35,
+    "image": "/img/breakfastFour.jpg"
+  },
+  {
+    "id": "egg-white-omelet-veggies",
+    "meal": "Breakfast",
+    "title": "Egg White Omelet with Veggies",
+    "ingredients": [
+      "3 egg whites",
+      "1 cup chopped vegetables (bell peppers, onions, spinach)",
+      "Salt and pepper to taste",
+      "Nonstick cooking spray"
+    ],
+    "steps": [
+      "Whisk the egg whites in a bowl. Season with salt and pepper.",
+      "Spray a nonstick skillet with cooking spray and heat over medium.",
+      "Add chopped vegetables and sauté for 2 minutes until softened.",
+      "Pour in the eggs. Cook for 3–4 minutes until set, folding in half."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "calories": 180,
+    "protein": 25,
+    "image": "/img/breakfastFive.jpg"
+  },
+  {
+    "id": "yogurt-parfait-berries",
+    "meal": "Breakfast",
+    "title": "Greek Yogurt Parfait with Berries",
+    "ingredients": [
+      "1 cup fat-free Greek yogurt",
+      "½ cup mixed berries",
+      "½ cup granola",
+      "1 tbsp honey"
+    ],
+    "steps": [
+      "Layer Greek yogurt, berries, and granola in a glass or bowl.",
+      "Drizzle with honey."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 300,
+    "protein": 25,
+    "image": "/img/breakfastSix.jpg"
+  },
+  {
+    "id": "egg-whites-spinach",
+    "meal": "Breakfast",
+    "title": "Egg Whites + Whole Egg with Spinach",
+    "ingredients": [
+      "3 egg whites & 1 whole egg",
+      "1 cup chopped fresh spinach",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Whisk the egg whites and whole egg in a bowl. Season with salt and pepper.",
+      "Add spinach to a nonstick skillet over medium heat until wilted.",
+      "Pour in the eggs and cook for about 3–4 minutes until set."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "calories": 240,
+    "protein": 28,
+    "image": "/img/breakfastSeven.jpg"
+  },
+  {
+    "id": "citrus-turkey-salad",
+    "meal": "Lunch",
+    "title": "Citrus Grilled Turkey Breast Salad",
+    "ingredients": [
+      "4 oz grilled turkey breast",
+      "4 cups mixed greens",
+      "½ cup cherry tomatoes (halved)",
+      "¼ cup cucumber (sliced)",
+      "2 tbsp light vinaigrette dressing",
+      "1 tsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a large bowl, combine mixed greens, cherry tomatoes, and cucumber.",
+      "Slice the grilled turkey breast and add it to the salad.",
+      "Drizzle with light vinaigrette dressing and olive oil.",
+      "Toss gently to combine. Season with salt and pepper to taste."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "",
+    "calories": 350,
+    "protein": 40,
+    "image": "/img/lunchOne.jpg"
+  },
+  {
+    "id": "tuna-celery-lettuce",
+    "meal": "Lunch",
+    "title": "Tuna Salad with Celery & Lettuce",
+    "ingredients": [
+      "1 can (5 oz) tuna in water (drained)",
+      "2 cups romaine lettuce (chopped)",
+      "½ cup celery (diced)",
+      "2 tbsp light mayonnaise",
+      "1 tsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a bowl, combine drained tuna, diced celery, light mayonnaise, and lemon juice.",
+      "Mix well until all ingredients are evenly combined.",
+      "Season with salt and pepper to taste.",
+      "Serve the tuna salad over a bed of chopped romaine lettuce."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 300,
+    "protein": 35,
+    "image": "/img/lunchTwo.jpg"
+  },
+  {
+    "id": "italian-chicken-salad",
+    "meal": "Lunch",
+    "title": "Italian Grilled Chicken Salad",
+    "ingredients": [
+      "4 oz grilled chicken breast",
+      "4 cups mixed greens",
+      "½ cup cherry tomatoes (halved)",
+      "¼ cup red onion (sliced)",
+      "2 tbsp light Italian dressing",
+      "1 tsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a large bowl, combine mixed greens, cherry tomatoes, and red onion.",
+      "Slice the grilled chicken breast and add it to the salad.",
+      "Drizzle with light Italian dressing and olive oil.",
+      "Toss gently to combine. Season with salt and pepper to taste."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "",
+    "calories": 360,
+    "protein": 42,
+    "image": "/img/lunchThree.jpg"
+  },
+  {
+    "id": "green-goddess-turkey",
+    "meal": "Lunch",
+    "title": "Green Goddess Turkey Breast Salad",
+    "ingredients": [
+      "4 oz sliced turkey breast",
+      "4 cups mixed greens",
+      "½ cup avocado (diced)",
+      "¼ cup cucumber (sliced)",
+      "2 tbsp green goddess dressing",
+      "1 tsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a large bowl, combine mixed greens, diced avocado, and cucumber.",
+      "Add sliced turkey breast to the salad.",
+      "Drizzle with green goddess dressing and olive oil.",
+      "Toss gently to combine. Season with salt and pepper to taste."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "",
+    "calories": 370,
+    "protein": 38,
+    "image": "/img/lunchFour.jpg"
+  },
+  {
+    "id": "lemon-pepper-tuna",
+    "meal": "Lunch",
+    "title": "Large Lemon Pepper Tuna Salad",
+    "ingredients": [
+      "1 can (5 oz) tuna in water (drained)",
+      "2 cups romaine lettuce (chopped)",
+      "½ cup cherry tomatoes (halved)",
+      "¼ cup red onion (sliced)",
+      "1 tsp lemon pepper seasoning",
+      "2 tbsp light vinaigrette dressing"
+    ],
+    "steps": [
+      "In a bowl, combine drained tuna, lemon pepper seasoning, and light vinaigrette dressing.",
+      "Mix well until all ingredients are evenly combined.",
+      "Serve over chopped romaine with cherry tomatoes and red onion."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 320,
+    "protein": 36,
+    "image": "/img/lunchFive.jpg"
+  },
+  {
+    "id": "bourbon-salmon-veggies",
+    "meal": "Lunch",
+    "title": "Baked Bourbon Salmon with Veggies",
+    "ingredients": [
+      "4 oz baked salmon",
+      "1 cup steamed broccoli",
+      "1 cup roasted sweet potatoes",
+      "1 tsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat oven to 400°F. Place salmon on a baking sheet, drizzle with olive oil, and season with salt and pepper.",
+      "Bake salmon 15–20 minutes until cooked through.",
+      "Steam broccoli until tender.",
+      "Roast sweet potatoes with a drizzle of olive oil until soft.",
+      "Serve salmon with broccoli and sweet potatoes."
+    ],
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "calories": 450,
+    "protein": 45,
+    "image": "/img/lunchSix.jpg"
+  },
+  {
+    "id": "balsamic-chicken-salad",
+    "meal": "Lunch",
+    "title": "Balsamic Grilled Chicken Salad",
+    "ingredients": [
+      "4 oz grilled chicken breast",
+      "4 cups mixed greens",
+      "½ cup cherry tomatoes (halved)",
+      "¼ cup cucumber (sliced)",
+      "2 tbsp balsamic vinaigrette dressing",
+      "1 tsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a large bowl, combine mixed greens, cherry tomatoes, and cucumber.",
+      "Slice the grilled chicken breast and add it to the salad.",
+      "Drizzle with balsamic vinaigrette and olive oil.",
+      "Toss gently. Season with salt and pepper to taste."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "",
+    "calories": 340,
+    "protein": 40,
+    "image": "/img/lunchSeven.jpg"
+  },
+  {
+    "id": "tilapia-broccoli-zucchini",
+    "meal": "Dinner",
+    "title": "Baked Tilapia with Broccoli & Zucchini",
+    "ingredients": [
+      "4 oz tilapia fillet",
+      "1 cup broccoli florets",
+      "½ cup zucchini (sliced)",
+      "1 tbsp olive oil",
+      "1 tsp garlic powder",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat oven to 400°F.",
+      "Place tilapia on a parchment-lined baking sheet.",
+      "Drizzle with olive oil and season with garlic powder, salt, and pepper.",
+      "Bake 12–15 minutes or until fish flakes easily.",
+      "Steam broccoli and sauté zucchini until tender."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "calories": 280,
+    "protein": 35,
+    "image": "/img/dinnerOne.jpg"
+  },
+  {
+    "id": "lemon-pepper-chicken-asparagus",
+    "meal": "Dinner",
+    "title": "Lemon Pepper Chicken with Asparagus",
+    "ingredients": [
+      "4 oz chicken breast",
+      "1 cup asparagus spears",
+      "1 tsp lemon pepper seasoning",
+      "1 tbsp olive oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Season chicken with lemon pepper and salt.",
+      "Heat olive oil in a skillet over medium heat.",
+      "Cook chicken 6–7 minutes per side until cooked through.",
+      "In the same skillet, sauté asparagus 3–4 minutes until tender."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "calories": 320,
+    "protein": 40,
+    "image": "/img/dinnerTwo.jpg"
+  },
+  {
+    "id": "garlic-cod-spinach",
+    "meal": "Dinner",
+    "title": "Garlic Baked Cod & Steamed Spinach",
+    "ingredients": [
+      "4 oz cod fillet",
+      "1 cup fresh spinach",
+      "1 tsp garlic powder",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat oven to 400°F.",
+      "Place cod on a parchment-lined baking sheet.",
+      "Drizzle with olive oil and season with garlic powder, salt, and pepper.",
+      "Bake 12–15 minutes or until fish flakes easily.",
+      "Steam spinach until wilted."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "calories": 290,
+    "protein": 38,
+    "image": "/img/dinnerThree.jpg"
+  },
+  {
+    "id": "teriyaki-shrimp-stirfry",
+    "meal": "Dinner",
+    "title": "Teriyaki Shrimp Stir-Fry & Veggies",
+    "ingredients": [
+      "4 oz shrimp (peeled and deveined)",
+      "1 cup mixed vegetables (bell peppers, broccoli, snap peas)",
+      "2 tbsp teriyaki sauce",
+      "1 tsp olive oil"
+    ],
+    "steps": [
+      "Heat olive oil in a skillet over medium heat.",
+      "Add mixed vegetables and stir-fry 4–5 minutes until tender-crisp.",
+      "Add shrimp and cook 2–3 minutes until pink.",
+      "Pour in teriyaki sauce and cook 2 minutes more."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "calories": 350,
+    "protein": 40,
+    "image": "/img/dinnerFour.jpg"
+  },
+  {
+    "id": "cajun-chicken-broccoli",
+    "meal": "Dinner",
+    "title": "Cajun Grilled Chicken & Broccoli",
+    "ingredients": [
+      "4 oz chicken breast",
+      "1 cup broccoli florets",
+      "1 tsp Cajun seasoning",
+      "1 tbsp olive oil",
+      "Salt to taste"
+    ],
+    "steps": [
+      "Season chicken with Cajun seasoning and salt.",
+      "Heat olive oil in a skillet over medium heat.",
+      "Cook chicken 6–7 minutes per side until cooked through.",
+      "Steam broccoli until tender."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "calories": 310,
+    "protein": 42,
+    "image": "/img/dinnerFive.jpg"
+  },
+  {
+    "id": "thai-turkey-basil",
+    "meal": "Dinner",
+    "title": "Thai Turkey Basil Stir-Fry",
+    "ingredients": [
+      "4 oz ground turkey",
+      "1 cup mixed vegetables (bell peppers, onions, snap peas)",
+      "2 tbsp low-sodium soy sauce",
+      "1 tsp olive oil",
+      "1 tsp fresh basil (chopped)"
+    ],
+    "steps": [
+      "Heat olive oil in a skillet over medium heat.",
+      "Add ground turkey and cook until browned.",
+      "Add mixed vegetables and stir-fry 4–5 minutes until tender-crisp.",
+      "Pour in soy sauce and cook 2 minutes more.",
+      "Garnish with fresh basil."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "calories": 340,
+    "protein": 38,
+    "image": "/img/dinnerSix.jpg"
+  },
+  {
+    "id": "baked-white-fish-veggies",
+    "meal": "Dinner",
+    "title": "Baked White Fish with Veggies",
+    "ingredients": [
+      "4 oz white fish fillet (cod, haddock)",
+      "1 cup mixed vegetables (zucchini, bell peppers, cherry tomatoes)",
+      "1 tbsp olive oil",
+      "1 tsp Italian seasoning",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "Preheat oven to 400°F.",
+      "Place fish on a parchment-lined baking sheet.",
+      "Drizzle with olive oil and season with Italian seasoning, salt, and pepper.",
+      "Bake 12–15 minutes or until fish flakes easily.",
+      "Roast mixed vegetables with olive oil until tender."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "calories": 300,
+    "protein": 36,
+    "image": "/img/dinnerSeven.jpg"
+  },
+  {
+    "id": "berry-chocolate-smoothie",
+    "meal": "Snack",
+    "title": "Berry Chocolate Bliss Smoothie",
+    "ingredients": [
+      "1 cup mixed berries (strawberries, blueberries, raspberries)",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "1 tsp acai berry powder",
+      "1 tbsp unsweetened cocoa powder",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 280,
+    "protein": 30,
+    "image": "/img/snackOne.jpg"
+  },
+  {
+    "id": "pbfit-chia-banana-smoothie",
+    "meal": "Snack",
+    "title": "PBfit Chia Banana Power Smoothie",
+    "ingredients": [
+      "1 medium banana",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "1 tbsp PBfit powder",
+      "1 tbsp chia seeds",
+      "2 pitted dates",
+      "2 tbsp whole oats",
+      "¼ cup sliced or slivered almonds",
+      "¼ tsp ground cinnamon",
+      "2 tbsp shredded coconut",
+      "Ice cubes"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 270,
+    "protein": 32,
+    "image": "/img/snackTwo.jpg"
+  },
+  {
+    "id": "cranberry-white-truffle-smoothie",
+    "meal": "Snack",
+    "title": "Cranberry White Truffle Smoothie",
+    "ingredients": [
+      "1 cup fresh or frozen strawberries",
+      "½ cup unsweetened cranberry juice",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "2 tbsp white chocolate chips",
+      "1–2 tbsp honey",
+      "Ice cubes",
+      "Vanilla extract (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 290,
+    "protein": 28,
+    "image": "/img/snackThree.jpg"
+  },
+  {
+    "id": "nutty-banana-smoothie",
+    "meal": "Snack",
+    "title": "Nutty Banana Protein Smoothie",
+    "ingredients": [
+      "1 medium banana",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "1 tbsp almond butter",
+      "1 tbsp chia seeds",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 300,
+    "protein": 30,
+    "image": "/img/snackFour.jpg"
+  },
+  {
+    "id": "tropical-green-smoothie",
+    "meal": "Snack",
+    "title": "Tropical Green Protein Smoothie",
+    "ingredients": [
+      "1 cup fresh spinach",
+      "½ cup frozen mango chunks",
+      "½ cup frozen pineapple chunks",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened coconut water",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 250,
+    "protein": 27,
+    "image": "/img/snackFive.jpg"
+  },
+  {
+    "id": "mocha-brew-smoothie",
+    "meal": "Snack",
+    "title": "Mocha Brew Protein Smoothie",
+    "ingredients": [
+      "1 cup brewed coffee, cooled",
+      "1 scoop chocolate protein powder",
+      "1 cup unsweetened almond milk",
+      "1 tbsp cocoa powder",
+      "Ice cubes",
+      "1 tsp honey or maple syrup (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 260,
+    "protein": 29,
+    "image": "/img/snackSix.jpg"
+  },
+  {
+    "id": "apple-cinnamon-smoothie",
+    "meal": "Snack",
+    "title": "Apple Cinnamon Protein Smoothie",
+    "ingredients": [
+      "1 medium apple (cored and sliced)",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "½ tsp ground cinnamon",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 240,
+    "protein": 28,
+    "image": "/img/snackSeven.jpg"
+  },
+  {
+    "id": "peach-mango-smoothie",
+    "meal": "Snack",
+    "title": "Peach Mango Protein Smoothie",
+    "ingredients": [
+      "½ cup frozen peach slices",
+      "½ cup frozen mango chunks",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 230,
+    "protein": 26,
+    "image": "/img/snackEight.jpg"
+  },
+  {
+    "id": "strawberry-banana-smoothie",
+    "meal": "Snack",
+    "title": "Strawberry Banana Protein Smoothie",
+    "ingredients": [
+      "1 medium banana",
+      "1 cup fresh or frozen strawberries",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 250,
+    "protein": 27,
+    "image": "/img/snackNine.jpg"
+  },
+  {
+    "id": "vanilla-chai-smoothie",
+    "meal": "Snack",
+    "title": "Vanilla Chai Protein Smoothie",
+    "ingredients": [
+      "1 cup brewed chai tea, cooled",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "½ tsp ground cinnamon",
+      "Ice cubes",
+      "1 tsp honey or maple syrup (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 240,
+    "protein": 28,
+    "image": "/img/snackTen.jpg"
+  },
+  {
+    "id": "avocado-spinach-smoothie",
+    "meal": "Snack",
+    "title": "Avocado Spinach Protein Smoothie",
+    "ingredients": [
+      "½ ripe avocado",
+      "1 cup fresh spinach",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 280,
+    "protein": 30,
+    "image": "/img/snackEleven.jpg"
+  },
+  {
+    "id": "blueberry-almond-smoothie",
+    "meal": "Snack",
+    "title": "Blueberry Almond Protein Smoothie",
+    "ingredients": [
+      "1 cup fresh or frozen blueberries",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened almond milk",
+      "1 tbsp almond butter",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 260,
+    "protein": 29,
+    "image": "/img/snackTwelve.jpg"
+  },
+  {
+    "id": "chocolate-mint-smoothie",
+    "meal": "Snack",
+    "title": "Chocolate Mint Protein Smoothie",
+    "ingredients": [
+      "1 scoop chocolate protein powder",
+      "1 cup unsweetened almond milk",
+      "¼ cup fresh mint leaves",
+      "1 tbsp cocoa powder",
+      "Ice cubes",
+      "1 tsp honey or maple syrup (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 270,
+    "protein": 31,
+    "image": "/img/snackThirteen.jpg"
+  },
+  {
+    "id": "raspberry-coconut-smoothie",
+    "meal": "Snack",
+    "title": "Raspberry Coconut Protein Smoothie",
+    "ingredients": [
+      "1 cup fresh or frozen raspberries",
+      "1 scoop vanilla protein powder",
+      "1 cup unsweetened coconut milk",
+      "2 tbsp shredded coconut",
+      "Ice cubes",
+      "1 tsp honey (optional)"
+    ],
+    "steps": [
+      "Combine all ingredients in a blender.",
+      "Blend until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "",
+    "calories": 240,
+    "protein": 27,
+    "image": "/img/snackFourteen.jpg"
+  }
+]
