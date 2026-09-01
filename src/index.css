@@ -81,39 +81,10 @@ button, input, select { font: inherit; }
   text-align: center;
   margin: 8px 0 18px;
 }
-.slider {
-  display: grid;
-  grid-template-columns: 40px 1fr 40px;
-  gap: 8px;
-  align-items: center;
-}
-.slider-track {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-}
-.slider-btn {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid var(--line);
-  background: #fff;
-  cursor: pointer;
-  font-size: 24px;
-  line-height: 1;
-}
-.slider-btn:disabled { opacity: 0.35; cursor: default; }
-.dots { display: flex; justify-content: center; gap: 6px; margin-top: 12px; }
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  border: 0;
-  background: #d5d0c6;
-  padding: 0;
-  cursor: pointer;
-}
-.dot.on { background: var(--green); }
+.slide-pad { padding: 0 8px; }
+.slick-prev:before,
+.slick-next:before { color: #6aa84f; }
+.slick-dots li button:before { color: #6aa84f; }
 .card {
   background: var(--card);
   border: 1px solid var(--line);
@@ -129,6 +100,7 @@ button, input, select { font: inherit; }
   border-radius: 12px;
   display: grid;
   place-items: center;
+  background: #efeae1;
   color: #fff;
   font-size: 12px;
   letter-spacing: 0.12em;
@@ -143,10 +115,6 @@ button, input, select { font: inherit; }
   object-fit: cover;
   display: block;
 }
-.meal-breakfast { background: #8fbf73; }
-.meal-lunch { background: #6aa84f; }
-.meal-dinner { background: #4f7d3a; }
-.meal-snack { background: #c4a35a; }
 .card h3 {
   font-family: "Playfair Display", Georgia, serif;
   font-size: 18px;
@@ -154,19 +122,6 @@ button, input, select { font: inherit; }
   min-height: 48px;
 }
 .card .meta { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
-.macros {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin: 10px 0 14px;
-}
-.macros span, .tag {
-  font-size: 12px;
-  background: #f1eee7;
-  border-radius: 999px;
-  padding: 3px 8px;
-}
-.row-actions { display: flex; gap: 8px; }
 .row-actions button, .primary, .ghost {
   border-radius: 999px;
   padding: 8px 12px;
@@ -177,22 +132,7 @@ button, input, select { font: inherit; }
 .ghost { background: transparent; border-color: var(--line); }
 .wide { width: 100%; margin-top: auto; }
 .photo.tall { height: 420px; margin: 0; }
-
-.detail { padding-bottom: 72px; }
-.back { color: var(--muted); font-size: 14px; display: inline-block; margin-bottom: 16px; }
-.detail h1 {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: clamp(32px, 5vw, 46px);
-  margin: 0 0 8px;
-}
 .meta { color: var(--muted); margin-bottom: 18px; }
-.columns { display: grid; grid-template-columns: 1fr 1.2fr; gap: 28px; }
-.columns h3 {
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 22px;
-  color: var(--green);
-}
-.columns li { margin: 0 0 8px; }
 .empty { color: var(--muted); padding: 40px 0; }
 
 .list-page ul { list-style: none; padding: 0; }
@@ -204,13 +144,6 @@ button, input, select { font: inherit; }
   border-bottom: 1px solid var(--line);
 }
 
-.meal {
-  color: var(--green);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
 .modal-back {
   position: fixed;
   inset: 0;
@@ -250,6 +183,5 @@ button, input, select { font: inherit; }
 }
 
 @media (max-width: 800px) {
-  .slider { grid-template-columns: 32px 1fr 32px; }
-  .slider-track, .modal-grid, .controls, .columns { grid-template-columns: 1fr; }
+  .modal-grid, .controls { grid-template-columns: 1fr; }
 }
