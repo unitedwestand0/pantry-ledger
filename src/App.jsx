@@ -36,7 +36,7 @@ export default function App() {
     <div className="wrap">
       <header className="topbar">
         <Link to="/" className="brand">
-          Kitchen <span>Keepsakes</span>
+          MetCon <span>Kitchen</span>
         </Link>
         <nav>
           <NavLink to="/" end className={({ isActive }) => (isActive ? "active" : "")}>
