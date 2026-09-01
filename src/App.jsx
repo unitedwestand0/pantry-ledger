@@ -1,20 +1,20 @@
 import { useMemo, useState } from "react";
 import { Link, NavLink, Route, Routes } from "react-router-dom";
+import Slider from "react-slick";
 import recipes from "./data/recipes.json";
 
 const MEALS = ["Breakfast", "Lunch", "Dinner", "Snack"];
 
 function RecipePhoto({ recipe, tall }) {
-  const className = `photo ${tall ? "tall" : ""} meal-${recipe.meal.toLowerCase()}`;
   if (recipe.image) {
     return (
-      <div className={className}>
+      <div className={`photo ${tall ? "tall" : ""}`}>
         <img src={recipe.image} alt={recipe.title} />
       </div>
     );
   }
   return (
-    <div className={className}>
+    <div className={`photo ${tall ? "tall" : ""} meal-${recipe.meal.toLowerCase()}`}>
       <span>{recipe.meal}</span>
     </div>
   );
@@ -121,8 +121,6 @@ function Catalog({ onOpen, onAdd, selected }) {
             label={label}
             items={visible.filter((recipe) => recipe.meal === label)}
             onOpen={onOpen}
-            onAdd={onAdd}
-            selected={selected}
           />
         ))
       )}
@@ -130,26 +128,25 @@ function Catalog({ onOpen, onAdd, selected }) {
   );
 }
 
-function MealRow({ label, items, onOpen, onAdd, selected }) {
-  const [page, setPage] = useState(0);
-  const perPage = 3;
-  const maxPage = Math.max(0, Math.ceil(items.length / perPage) - 1);
-  const start = page * perPage;
-  const visibleCards = items.slice(start, start + perPage);
-
-  const prev = () => setPage((current) => Math.max(0, current - 1));
-  const next = () => setPage((current) => Math.min(maxPage, current + 1));
+function MealRow({ label, items, onOpen }) {
+  const settings = {
+    dots: true,
+    infinite: items.length > 3,
+    speed: 500,
+    slidesToShow: Math.min(3, items.length),
+    slidesToScroll: Math.min(3, items.length),
+    responsive: [
+      { breakpoint: 800, settings: { slidesToShow: 1, slidesToScroll: 1, infinite: items.length > 1 } },
+    ],
+  };
 
   return (
     <section className="meal-block">
       <h2>{label} recipes</h2>
-      <div className="slider">
-        <button className="slider-btn" onClick={prev} disabled={page === 0} aria-label="Previous">
-          ‹
-        </button>
-        <div className="slider-track">
-          {visibleCards.map((recipe) => (
-            <article className="card" key={recipe.id}>
+      <Slider {...settings}>
+        {items.map((recipe) => (
+          <div key={recipe.id} className="slide-pad">
+            <article className="card">
               <RecipePhoto recipe={recipe} />
               <h3>{recipe.title}</h3>
               <p className="meta">
@@ -159,21 +156,9 @@ function MealRow({ label, items, onOpen, onAdd, selected }) {
                 View recipe
               </button>
             </article>
-          ))}
-        </div>
-        <button className="slider-btn" onClick={next} disabled={page === maxPage} aria-label="Next">
-          ›
-        </button>
-      </div>
-      <div className="dots" aria-hidden="true">
-        {Array.from({ length: maxPage + 1 }).map((_, index) => (
-          <button
-            key={index}
-            className={index === page ? "dot on" : "dot"}
-            onClick={() => setPage(index)}
-          />
+          </div>
         ))}
-      </div>
+      </Slider>
     </section>
   );
 }
@@ -190,7 +175,6 @@ function Modal({ recipe, onClose, onAdd, added }) {
       >
         <div className="modal-head">
           <h2 id="recipe-title">{recipe.title}</h2>
-         
         </div>
         <div className="modal-grid">
           <RecipePhoto recipe={recipe} tall />
@@ -207,8 +191,8 @@ function Modal({ recipe, onClose, onAdd, added }) {
                 <li key={line}>{line}</li>
               ))}
             </ol>
-            <p><b>Prep Time:</b> {recipe.prepTime || "—"}</p>
-            <p><b>Cook Time:</b> {recipe.cookTime || "—"}</p>
+            <p><b>Prep Time:</b> {recipe.prepTime || "\u2014"}</p>
+            <p><b>Cook Time:</b> {recipe.cookTime || "\u2014"}</p>
             <p><b>Protein:</b> {recipe.protein}g</p>
             <p><b>Calories:</b> {recipe.calories}</p>
           </div>
